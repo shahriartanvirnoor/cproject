@@ -1,0 +1,3 @@
+Hello, I am writing to this file for fun as I will check in my file opening. So, If the file is empty it won't make any sense if my code is running good or bad so, I have
+to check what's going on. 
+thank you for using it.
