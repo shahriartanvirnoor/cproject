@@ -1,4 +1,4 @@
-/*Floyd Warshall’s Algorithm*/
+/*Floyd Warshall’s*/
 #include<stdio.h>
 #include<conio.h>
 #define MAX 100

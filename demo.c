@@ -1,18 +1,22 @@
-#include <stdio.h>
-
- int main() {
-   //We will work with a file
-   //It's very hard to remember file related syntax
-FILE* fp = fopen("Text1.txt","w");
-if(fp==NULL){
-   printf("Error opening file!\n");
-   return 1;
+#include<stdio.h>
+#include<stdbool.h>
+#include<stdlib.h>
+int main(void) {
+   int x = rand();
+   int n;
+   printf("Guess the number: ");
+   scanf("%d", &n);
+   if(x==n) printf("Your guess is correct\n");
+   else {
+      printf("Wrong answer!\n");
+      printf("%d is the random number\n");
+      if(x>n) printf("Too high\n");
+      else printf("Too low\n");
+   }
+   return 0;
 }
-printf("File is opened!\n");
-
-char *string = "My name is Shahriar Tanvir Noor. I am from Mymensingh Bangladesh\n studying in University of Frontier Technology, Bangladesh";
-fputs(string, fp);
-fclose(fp);
-return 0;
-
- }
+/* 
+   *In the case of generating random number
+   *I have to learn how to generate number in a given range.
+   *Otherwise, it will be useless.
+   */

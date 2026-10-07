@@ -1,4 +1,4 @@
-/*dfs implementation in C*/
+/*dfs implementation*/
 #include<stdio.h>
 #include<stdlib.h>
 #define MAX 100

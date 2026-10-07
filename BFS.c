@@ -1,4 +1,4 @@
-/*implementation BFS in C language*/
+/*implementation BFS*/
 #include<stdio.h>
 #include<stdlib.h>
 #include<conio.h>
